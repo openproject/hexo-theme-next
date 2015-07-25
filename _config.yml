@@ -1,7 +1,6 @@
 # ---------------------------------------------------------------
 # Site Information Settings
 # ---------------------------------------------------------------
-
 # Place your favicon.ico to /source directory.
 favicon: /favicon.ico
 
@@ -16,6 +15,10 @@ rss:
 # Specify the date when the site was setup
 #since: 2015
 
+# Code Highlight theme
+# Available value: normal | night | night eighties | night blue | night bright
+# https://github.com/chriskempson/tomorrow-theme
+highlight_theme: night
 
 
 
@@ -57,7 +60,7 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Mist
+scheme: Mist
 
 
 
