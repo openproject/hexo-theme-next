@@ -1,11 +1,11 @@
 <div class="copyright" >
   {% set current = date(Date.now(), "YYYY") %}
   &copy; &nbsp; {% if theme.since and theme.since != current %} {{ theme.since }} - {% endif %}
-  <span itemprop="copyrightYear">{{ current }} - 鄂ICP备15013583号-1</span>
+  <span class="author" itemprop="copyrightHolder">{{ config.author }}</span>
+  <span itemprop="copyrightYear">{{ current }} • 鄂ICP备15013583号-1</span>
   <span class="with-love">
     <i class="icon-next-heart fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">{{ config.author }}</span>
 </div>
 
 <div class="powered-by">
